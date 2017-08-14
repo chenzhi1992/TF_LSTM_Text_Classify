@@ -1,7 +1,7 @@
 # TF_LSTM_Text_Classify
 Tensorflow+lstm+text_classify(support chinese text classification and variable batch_size)
 
-Network:
+#Network:
 
   Embedding + lstm + mean_pooling + Variable batch_size
   
@@ -34,5 +34,6 @@ Mylstm.py: define the network: Embedding + lstm + mean_pooling
 My_bi-lstm.py: define the network: Embedding + bi-lstm + mean_pooling
 
 train.py: train the network
+
 
 注: 代码还有很多问题,欢迎指正讨论.
