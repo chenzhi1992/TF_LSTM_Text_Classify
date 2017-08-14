@@ -8,12 +8,12 @@ import time
 import datetime
 import gc
 from input_helpers2 import InputHelper
-# from Mybi_lstm import MyLSTM
+# from My_bi-lstm import MyLSTM
 from Mylstm import MyLSTM
 from tensorflow.contrib import learn
 import gzip
 from random import random
-import vector_helper as wv
+import data_helper as wv
 
 # Parameters
 # ==================================================
@@ -46,8 +46,7 @@ if FLAGS.training_files == None:
     print("Input Files List is empty. use --training_files argument.")
     exit()
 
-# max_document_length=30
-training_files = '/data/question_matching_framework/RNN_Text_Classify-master/aaa'
+training_files = './data'#数据集路径
 inpH = InputHelper()
 train_set, dev_set, sum_no_of_batches = inpH.getDataSets(training_files, 20, FLAGS.batch_size)
 
