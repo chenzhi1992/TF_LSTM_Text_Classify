@@ -6,6 +6,7 @@ Network:
   Embedding + lstm + mean_pooling + Variable batch_size
   
 #Requirements
+
   Python 3.5 (> 3.0)
   
   Tensorflow 1.2
@@ -25,3 +26,13 @@ Network:
    5. I don't publish the data_helper.py , because you can write it according to yourself dataset.
    
     (根据自己的数据集来写data_helper.py, 将数据集写到trainset 和devset两个变量即可,trainset 和devset中包括所有样本的数据和对应的label)
+
+#python file
+
+Mylstm.py: define the network: Embedding + lstm + mean_pooling
+
+My_bi-lstm.py: define the network: Embedding + bi-lstm + mean_pooling
+
+train.py: train the network
+
+注: 代码还有很多问题,欢迎指正讨论.
