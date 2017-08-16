@@ -36,4 +36,4 @@ My_bi-lstm.py: define the network: Embedding + bi-lstm + mean_pooling
 train.py: train the network
 
 
-注: 代码还有很多问题,欢迎指正讨论.
+注: 欢迎指正讨论.
